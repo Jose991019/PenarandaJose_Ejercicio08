@@ -83,6 +83,8 @@ for i in range(1, N):
         betasC[i,:] = current_betas
 betasC = betasC[N//2:,:]
 
+x = np.linspace(3,7,1000)
+
 plt.figure(figsize = (10,10))
 for i in range(0,3):
     plt.subplot(2,2,i+1)
